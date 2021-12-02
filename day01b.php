@@ -1,5 +1,5 @@
 <?php
-$numbers = explode("\n", (file_get_contents("numbers.txt")));
+$numbers = explode("\n", (file_get_contents("day01.txt")));
 $increased = 0;
 for ($i = 0; $i < count($numbers) - 3; $i++) {
     $j = $i+1;
