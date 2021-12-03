@@ -19,8 +19,8 @@ if ($onecounter > $zerocounter || $onecounter == $zerocounter) {
 }
 echo "The most occurring number for that index is: " . $most . '<br>';
 
-foreach ($binary as $bin){
-    if ($bin[0] == $most){
+foreach ($binary as $bin) {
+    if ($bin[0] == $most) {
         $oxygen[] = $bin;
     }
 }
@@ -28,7 +28,7 @@ print_array($oxygen);
 
 $onecounter = 0;
 $zerocounter = 0;
-foreach ($oxygen as $bin){
+foreach ($oxygen as $bin) {
     if ($bin[1] == "0") {
         $zerocounter += 1;
     }
@@ -44,8 +44,8 @@ if ($onecounter > $zerocounter || $onecounter == $zerocounter) {
 }
 echo "The most occurring number for that index is: " . $most . '<br>';
 
-foreach ($oxygen as $bin){
-    if ($bin[1] == $most){
+foreach ($oxygen as $bin) {
+    if ($bin[1] == $most) {
         $oxygen2[] = $bin;
     }
 }
@@ -53,7 +53,7 @@ print_array($oxygen2);
 
 $onecounter = 0;
 $zerocounter = 0;
-foreach ($oxygen2 as $bin){
+foreach ($oxygen2 as $bin) {
     if ($bin[2] == "0") {
         $zerocounter += 1;
     }
@@ -69,8 +69,8 @@ if ($onecounter > $zerocounter || $onecounter == $zerocounter) {
 }
 echo "The most occurring number for that index is: " . $most . '<br>';
 
-foreach ($oxygen2 as $bin){
-    if ($bin[2] == $most){
+foreach ($oxygen2 as $bin) {
+    if ($bin[2] == $most) {
         $oxygen3[] = $bin;
     }
 }
@@ -78,7 +78,7 @@ print_array($oxygen3);
 
 $onecounter = 0;
 $zerocounter = 0;
-foreach ($oxygen3 as $bin){
+foreach ($oxygen3 as $bin) {
     if ($bin[3] == "0") {
         $zerocounter += 1;
     }
@@ -94,8 +94,8 @@ if ($onecounter > $zerocounter || $onecounter == $zerocounter) {
 }
 echo "The most occurring number for that index is: " . $most . '<br>';
 
-foreach ($oxygen3 as $bin){
-    if ($bin[3] == $most){
+foreach ($oxygen3 as $bin) {
+    if ($bin[3] == $most) {
         $oxygen4[] = $bin;
     }
 }
@@ -103,7 +103,7 @@ print_array($oxygen4);
 
 $onecounter = 0;
 $zerocounter = 0;
-foreach ($oxygen4 as $bin){
+foreach ($oxygen4 as $bin) {
     if ($bin[4] == "0") {
         $zerocounter += 1;
     }
@@ -119,8 +119,8 @@ if ($onecounter > $zerocounter || $onecounter == $zerocounter) {
 }
 echo "The most occurring number for that index is: " . $most . '<br>';
 
-foreach ($oxygen4 as $bin){
-    if ($bin[4] == $most){
+foreach ($oxygen4 as $bin) {
+    if ($bin[4] == $most) {
         $oxygen5[] = $bin;
     }
 }
@@ -128,7 +128,7 @@ print_array($oxygen5);
 
 $onecounter = 0;
 $zerocounter = 0;
-foreach ($oxygen5 as $bin){
+foreach ($oxygen5 as $bin) {
     if ($bin[5] == "0") {
         $zerocounter += 1;
     }
@@ -144,8 +144,8 @@ if ($onecounter > $zerocounter || $onecounter == $zerocounter) {
 }
 echo "The most occurring number for that index is: " . $most . '<br>';
 
-foreach ($oxygen5 as $bin){
-    if ($bin[5] == $most){
+foreach ($oxygen5 as $bin) {
+    if ($bin[5] == $most) {
         $oxygen6[] = $bin;
     }
 }
@@ -153,7 +153,7 @@ print_array($oxygen6);
 
 $onecounter = 0;
 $zerocounter = 0;
-foreach ($oxygen6 as $bin){
+foreach ($oxygen6 as $bin) {
     if ($bin[6] == "0") {
         $zerocounter += 1;
     }
@@ -169,8 +169,8 @@ if ($onecounter > $zerocounter || $onecounter == $zerocounter) {
 }
 echo "The most occurring number for that index is: " . $most . '<br>';
 
-foreach ($oxygen6 as $bin){
-    if ($bin[6] == $most){
+foreach ($oxygen6 as $bin) {
+    if ($bin[6] == $most) {
         $oxygen7[] = $bin;
     }
 }
@@ -178,7 +178,7 @@ print_array($oxygen7);
 
 $onecounter = 0;
 $zerocounter = 0;
-foreach ($oxygen7 as $bin){
+foreach ($oxygen7 as $bin) {
     if ($bin[7] == "0") {
         $zerocounter += 1;
     }
@@ -194,8 +194,8 @@ if ($onecounter > $zerocounter || $onecounter == $zerocounter) {
 }
 echo "The most occurring number for that index is: " . $most . '<br>';
 
-foreach ($oxygen7 as $bin){
-    if ($bin[7] == $most){
+foreach ($oxygen7 as $bin) {
+    if ($bin[7] == $most) {
         $oxygen8[] = $bin;
     }
 }
@@ -203,7 +203,7 @@ print_array($oxygen8);
 
 $onecounter = 0;
 $zerocounter = 0;
-foreach ($oxygen8 as $bin){
+foreach ($oxygen8 as $bin) {
     if ($bin[8] == "0") {
         $zerocounter += 1;
     }
@@ -219,8 +219,8 @@ if ($onecounter > $zerocounter || $onecounter == $zerocounter) {
 }
 echo "The most occurring number for that index is: " . $most . '<br>';
 
-foreach ($oxygen8 as $bin){
-    if ($bin[8] == $most){
+foreach ($oxygen8 as $bin) {
+    if ($bin[8] == $most) {
         $oxygen9[] = $bin;
     }
 }
@@ -228,7 +228,7 @@ print_array($oxygen9);
 
 $onecounter = 0;
 $zerocounter = 0;
-foreach ($oxygen9 as $bin){
+foreach ($oxygen9 as $bin) {
     if ($bin[9] == "0") {
         $zerocounter += 1;
     }
@@ -244,8 +244,8 @@ if ($onecounter > $zerocounter || $onecounter == $zerocounter) {
 }
 echo "The most occurring number for that index is: " . $most . '<br>';
 
-foreach ($oxygen9 as $bin){
-    if ($bin[9] == $most){
+foreach ($oxygen9 as $bin) {
+    if ($bin[9] == $most) {
         $oxygen10[] = $bin;
     }
 }
@@ -253,7 +253,7 @@ print_array($oxygen10);
 
 $onecounter = 0;
 $zerocounter = 0;
-foreach ($oxygen10 as $bin){
+foreach ($oxygen10 as $bin) {
     if ($bin[10] == "0") {
         $zerocounter += 1;
     }
@@ -269,15 +269,12 @@ if ($onecounter > $zerocounter || $onecounter == $zerocounter) {
 }
 echo "The most occurring number for that index is: " . $most . '<br>';
 
-foreach ($oxygen10 as $bin){
-    if ($bin[10] == $most){
+foreach ($oxygen10 as $bin) {
+    if ($bin[10] == $most) {
         $oxygen11[] = $bin;
     }
 }
 print_array($oxygen11);
-
-
-
 
 
 function print_array($array)

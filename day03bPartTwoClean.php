@@ -21,8 +21,8 @@ for ($index = 0; $index < 12; $index++) {
     echo "The most occurring number for that index is: " . $most . '<br>';
 
     $oxygen = [];
-    foreach ($binary as $bin){
-        if ($bin[$index] == $most){
+    foreach ($binary as $bin) {
+        if ($bin[$index] == $most) {
             $oxygen[] = $bin;
         }
     }

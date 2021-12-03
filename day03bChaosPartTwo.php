@@ -20,8 +20,8 @@ if ($onecounter < $zerocounter) {
 echo "The least occurring number for that index is: " . $least . '<br>';
 //print_array($binary);
 
-foreach ($binary as $bin){
-    if ($bin[0] == $least){
+foreach ($binary as $bin) {
+    if ($bin[0] == $least) {
         $oxygen[] = $bin;
     }
 }
@@ -29,7 +29,7 @@ print_array($oxygen);
 
 $onecounter = 0;
 $zerocounter = 0;
-foreach ($oxygen as $bin){
+foreach ($oxygen as $bin) {
     if ($bin[1] == "0") {
         $zerocounter += 1;
     }
@@ -45,8 +45,8 @@ if ($onecounter < $zerocounter) {
 }
 echo "The least occurring number for that index is: " . $least . '<br>';
 
-foreach ($oxygen as $bin){
-    if ($bin[1] == $least){
+foreach ($oxygen as $bin) {
+    if ($bin[1] == $least) {
         $oxygen2[] = $bin;
     }
 }
@@ -54,7 +54,7 @@ print_array($oxygen2);
 
 $onecounter = 0;
 $zerocounter = 0;
-foreach ($oxygen2 as $bin){
+foreach ($oxygen2 as $bin) {
     if ($bin[2] == "0") {
         $zerocounter += 1;
     }
@@ -70,8 +70,8 @@ if ($onecounter < $zerocounter) {
 }
 echo "The least occurring number for that index is: " . $least . '<br>';
 
-foreach ($oxygen2 as $bin){
-    if ($bin[2] == $least){
+foreach ($oxygen2 as $bin) {
+    if ($bin[2] == $least) {
         $oxygen3[] = $bin;
     }
 }
@@ -79,7 +79,7 @@ print_array($oxygen3);
 
 $onecounter = 0;
 $zerocounter = 0;
-foreach ($oxygen3 as $bin){
+foreach ($oxygen3 as $bin) {
     if ($bin[3] == "0") {
         $zerocounter += 1;
     }
@@ -95,8 +95,8 @@ if ($onecounter < $zerocounter) {
 }
 echo "The least occurring number for that index is: " . $least . '<br>';
 
-foreach ($oxygen3 as $bin){
-    if ($bin[3] == $least){
+foreach ($oxygen3 as $bin) {
+    if ($bin[3] == $least) {
         $oxygen4[] = $bin;
     }
 }
@@ -104,7 +104,7 @@ print_array($oxygen4);
 
 $onecounter = 0;
 $zerocounter = 0;
-foreach ($oxygen4 as $bin){
+foreach ($oxygen4 as $bin) {
     if ($bin[4] == "0") {
         $zerocounter += 1;
     }
@@ -120,8 +120,8 @@ if ($onecounter < $zerocounter) {
 }
 echo "The least occurring number for that index is: " . $least . '<br>';
 
-foreach ($oxygen4 as $bin){
-    if ($bin[4] == $least){
+foreach ($oxygen4 as $bin) {
+    if ($bin[4] == $least) {
         $oxygen5[] = $bin;
     }
 }
@@ -129,7 +129,7 @@ print_array($oxygen5);
 
 $onecounter = 0;
 $zerocounter = 0;
-foreach ($oxygen5 as $bin){
+foreach ($oxygen5 as $bin) {
     if ($bin[5] == "0") {
         $zerocounter += 1;
     }
@@ -145,8 +145,8 @@ if ($onecounter < $zerocounter) {
 }
 echo "The least occurring number for that index is: " . $least . '<br>';
 
-foreach ($oxygen5 as $bin){
-    if ($bin[5] == $least){
+foreach ($oxygen5 as $bin) {
+    if ($bin[5] == $least) {
         $oxygen6[] = $bin;
     }
 }
@@ -154,7 +154,7 @@ print_array($oxygen6);
 
 $onecounter = 0;
 $zerocounter = 0;
-foreach ($oxygen6 as $bin){
+foreach ($oxygen6 as $bin) {
     if ($bin[6] == "0") {
         $zerocounter += 1;
     }
@@ -170,8 +170,8 @@ if ($onecounter < $zerocounter) {
 }
 echo "The least occurring number for that index is: " . $least . '<br>';
 
-foreach ($oxygen6 as $bin){
-    if ($bin[6] == $least){
+foreach ($oxygen6 as $bin) {
+    if ($bin[6] == $least) {
         $oxygen7[] = $bin;
     }
 }
@@ -179,7 +179,7 @@ print_array($oxygen7);
 
 $onecounter = 0;
 $zerocounter = 0;
-foreach ($oxygen7 as $bin){
+foreach ($oxygen7 as $bin) {
     if ($bin[7] == "0") {
         $zerocounter += 1;
     }
@@ -195,8 +195,8 @@ if ($onecounter < $zerocounter) {
 }
 echo "The least occurring number for that index is: " . $least . '<br>';
 
-foreach ($oxygen7 as $bin){
-    if ($bin[7] == $least){
+foreach ($oxygen7 as $bin) {
+    if ($bin[7] == $least) {
         $oxygen8[] = $bin;
     }
 }
@@ -204,7 +204,7 @@ print_array($oxygen8);
 
 $onecounter = 0;
 $zerocounter = 0;
-foreach ($oxygen8 as $bin){
+foreach ($oxygen8 as $bin) {
     if ($bin[8] == "0") {
         $zerocounter += 1;
     }
@@ -220,8 +220,8 @@ if ($onecounter < $zerocounter) {
 }
 echo "The least occurring number for that index is: " . $least . '<br>';
 
-foreach ($oxygen8 as $bin){
-    if ($bin[8] == $least){
+foreach ($oxygen8 as $bin) {
+    if ($bin[8] == $least) {
         $oxygen9[] = $bin;
     }
 }
