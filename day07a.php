@@ -5,10 +5,11 @@ error_reporting(0);
 //I calculate which number appears most, this being the best position?
 $positions = explode(",", (file_get_contents("day07.txt")));
 $values = array_count_values($positions);
-arsort($values);
+//arsort($values);
+ksort($values);
 $max = max($positions);
 //echo $max;
-//print_array($values);
+print_array($positions);
 //best position = 32? -- lolnope, that's not how that works.
 //------------------------------------------------------------------------------
 
@@ -23,7 +24,7 @@ for ($i = 0; $i < $count; $i++) {
         $fuel += $dif;
     }
 }
-echo $fuel;
+//echo $fuel;
 
 //353: 342732
 //354: 342730
